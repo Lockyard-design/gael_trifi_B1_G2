@@ -1,0 +1,38 @@
+section {
+
+    border: 2px solid black;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+}
+
+div{
+    width: 5%;
+    height: 100%;
+    background-color: gray;
+}
+/* Petits appareils (smartphones) */
+@media (max-width: 576px) {
+    /* Styles pour les écrans ≤ 576px */
+  }
+  
+  /* Moyens appareils (tablettes portrait) */
+  @media (min-width: 577px) and (max-width: 768px) {
+    /* Styles pour les écrans entre 577px et 768px */
+  }
+  
+  /* Tablettes en mode paysage ou petits laptops */
+  @media (min-width: 769px) and (max-width: 992px) {
+    /* Styles pour les écrans entre 769px et 992px */
+  }
+  
+  /* Laptops et desktops */
+  @media (min-width: 993px) and (max-width: 1200px) {
+    /* Styles pour les écrans entre 993px et 1200px */
+  }
+  
+  /* Grands écrans */
+  @media (min-width: 1201px) {
+    /* Styles pour les écrans ≥ 1201px */
+  }
+  

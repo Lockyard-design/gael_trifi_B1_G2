@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('./image/aren.png') no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+section div{
+    
+}
+
+.profil img { 
+    border-radius: 50% ;
+    background-color:lightblue ;
+    border: 10px solid lightskyblue;
+}
+.profil2 img { 
+    border-radius: 50% ;
+    border: 10px solid rgb(225, 57, 57);
+}
+.justify-content-center {
+    display:flex;
+    justify-content: center;
+}
+.align-items-center {
+    align-items: center;
+}
+/* Petits appareils (smartphones) */
+@media (max-width: 576px) {
+    /* Styles pour les écrans ≤ 576px */
+  }
+  
+  /* Moyens appareils (tablettes portrait) */
+  @media (min-width: 577px) and (max-width: 768px) {
+    /* Styles pour les écrans entre 577px et 768px */
+  }
+  
+  /* Tablettes en mode paysage ou petits laptops */
+  @media (min-width: 769px) and (max-width: 992px) {
+    /* Styles pour les écrans entre 769px et 992px */
+  }
+  
+  /* Laptops et desktops */
+  @media (min-width: 993px) and (max-width: 1200px) {
+    /* Styles pour les écrans entre 993px et 1200px */
+  }
+  
+  /* Grands écrans */
+  @media (min-width: 1201px) {
+    /* Styles pour les écrans ≥ 1201px */
+  }
+  
